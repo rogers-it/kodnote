@@ -1,24 +1,25 @@
 {
   "name": "NotePad Pro",
   "short_name": "NotePad",
-  "description": "A comprehensive notepad app with notes, todos, and more",
+  "description": "A comprehensive notepad app for writing, organizing, and managing your notes with ease.",
   "id": "com.kodlama.notepad",
-  "start_url": "/",
+  "start_url": "https://rogers-it.github.io/kodnote/",
+  "scope": "https://rogers-it.github.io/kodnote/",
   "display": "standalone",
+  "orientation": "portrait",
   "background_color": "#0a0a0a",
   "theme_color": "#0a0a0a",
-  "orientation": "portrait",
   "icons": [
     {
-      "src": "icon-192.jpg",
+      "src": "icon-192.png",
       "sizes": "192x192",
-      "type": "image/jpeg",
+      "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "icon-512.jpg",
+      "src": "icon-512.png",
       "sizes": "512x512",
-      "type": "image/jpeg",
+      "type": "image/png",
       "purpose": "any maskable"
     }
   ],
@@ -28,7 +29,7 @@
       "sizes": "1080x1920",
       "type": "image/jpeg",
       "form_factor": "narrow",
-      "label": "Notes view with dark theme"
+      "label": "Dark theme notes view"
     },
     {
       "src": "screenshot2.jpg",
@@ -42,7 +43,27 @@
       "sizes": "1080x1920",
       "type": "image/jpeg",
       "form_factor": "narrow",
-      "label": "Todo list with reminders"
+      "label": "Todo list and reminders"
     }
-  ]
+  ],
+  "shortcuts": [
+    {
+      "name": "New Note",
+      "short_name": "New",
+      "description": "Create a new note quickly",
+      "url": "https://rogers-it.github.io/kodnote/new",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "All Notes",
+      "short_name": "Notes",
+      "description": "View all saved notes",
+      "url": "https://rogers-it.github.io/kodnote/",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "categories": ["productivity", "utilities", "writing"],
+  "lang": "en",
+  "dir": "ltr",
+  "prefer_related_applications": false
 }
