@@ -37,7 +37,7 @@ A comprehensive, feature-rich notepad application for mobile devices with offlin
 
 ## Demo
 
-Visit the live app: [https://rogersit.github.io/notepad-app/](https://rogersit.github.io/notepad-app/)
+Visit the live app: [https://rogers-it.github.io/notepad-app/](https://rogers-it.github.io/notepad-app/)
 
 ## Usage
 
