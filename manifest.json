@@ -2,7 +2,7 @@
   "name": "NotePad Pro",
   "short_name": "NotePad",
   "description": "A comprehensive notepad app with notes, todos, and more",
-  "id": "/notepad-app/",
+  "id": "com.kodlama.notepad",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0a0a0a",
