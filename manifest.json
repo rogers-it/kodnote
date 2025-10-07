@@ -2,6 +2,7 @@
   "name": "NotePad Pro",
   "short_name": "NotePad",
   "description": "A comprehensive notepad app with notes, todos, and more",
+  "id": "/notepad-app/",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0a0a0a",
@@ -11,14 +12,34 @@
     {
       "src": "/icon-192.jpg",
       "sizes": "192x192",
-      "type": "image/jpeg",
+      "type": "image/png",
       "purpose": "any maskable"
     },
     {
       "src": "/icon-512.jpg",
       "sizes": "512x512",
-      "type": "image/jpeg",
+      "type": "image/png",
       "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot1.jpg",
+      "sizes": "540x720",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/screenshot2.jpg",
+      "sizes": "540x720",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/screenshot3.jpg",
+      "sizes": "540x720",
+      "type": "image/png",
+      "form_factor": "narrow"
     }
   ]
 }
